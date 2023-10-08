@@ -1,0 +1,18 @@
+Flexbox:-The CSS Flexbox offers a one-dimensional layout. It is helpful in allocating and aligning the space among items in a container (made of grids). It works with all kinds of display devices and screen sizes.
+To get started you have to define a container element as with display: flex;
+
+----------------------------------------------------------------------------------------------------------------------
+
+Grid:-CSS  Grid Layout, is a two-dimensional grid-based layout system with rows and columns, making it easier to design web pages without having to use floats and positioning. Like tables, grid layout allow us to align elements into columns and rows.
+
+To get started you have to define a container element as a grid with display: grid, set the column and row sizes with grid-template-columns and grid-template-rows, and then place its child elements into the grid with grid-column and grid-row.
+
+--------------------------------------------------------------------------------------------------------------------
+
+Uniqueness In Grid And Flexbox:
+
+One Vs Two Dimensions:
+
+Grid is made for a two-dimensional layout while Flexbox is for one. This means Flexbox can work on either row or columns at a time, but Grids can work on both.
+Flexbox gives you more flexibility while working on either element (row or column). HTML markup and CSS will be easy to manage in this type of scenario.
+GRID gives you more flexibility to move around the blocks irrespective of your HTML markup.
