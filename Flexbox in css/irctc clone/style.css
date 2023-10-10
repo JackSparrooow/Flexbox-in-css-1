@@ -1,0 +1,301 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 100%;
+    position: fixed;
+
+}
+
+.leftside {
+    width: 55%;
+    float: left;
+    height: 100vh;
+}
+
+
+
+.second {
+    margin-right: 11rem;
+}
+
+.leftside .nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    line-height: 3vh;
+    margin: 0px 30px;
+}
+
+
+.leftside .nav .first1 {
+    height: 60px;
+    width: 60px;
+}
+
+.leftside .nav .first2 {
+    height: 60px;
+    width: 60px;
+    margin-right: 6rem;
+
+}
+
+.leftside .nav .second a {
+    margin-right: 1rem;
+    color: rgb(116, 116, 247);
+    font-size: 1.3rem;
+    padding-right: 5px;
+    text-decoration: none;
+}
+
+.navbtn button {
+    margin-top: 15px;
+    margin-right: 25px;
+    padding: 5px 20px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+#login {
+    background: orangered;
+    color: #fff;
+}
+
+.rightside {
+    width: 45%;
+    float: right;
+    height: 100vh;
+}
+
+.rightside .img1 {
+    width: 100%;
+    height: 50vh;
+    display: block;
+
+}
+
+.rightside .img2 {
+    display: block;
+    width: 100%;
+    height: 50vh;
+}
+
+.tital {
+    margin-top: 3rem;
+    margin-left: 2.5rem;
+    font-size: 1.3rem;
+}
+
+.tital2 {
+    display: flex;
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+}
+
+.tital2 .one h2 {
+    padding-right: 5px;
+    color: rgb(51, 243, 51);
+}
+
+.tital2 .two h2 {
+    padding: 0px 5px;
+    color: rgb(245, 95, 41);
+}
+
+.tital2 .three h2 {
+    padding: 0px 5px;
+    color: rgb(49, 49, 119);
+}
+
+.bookticket {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: start;
+}
+
+.main {
+    background-color: rgb(47, 47, 111);
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding-right: 22px;
+    margin-left: 20px;
+    padding-left: 15px;
+}
+
+.bookticket .ticket {
+    padding-top: 5px;
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    padding-bottom: 5px;
+}
+
+.logo1 {
+    height: 20px;
+    width: 22px;
+
+}
+
+.main2 {
+    border: 1px solid rgb(47, 47, 111);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding-right: 22px;
+    padding-left: 15px;
+    margin-left: 40px;
+
+}
+
+.bookticket .status {
+    padding-top: 5px;
+    padding-left: 5px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(47, 47, 111));
+    padding-bottom: 5px;
+
+}
+
+.logo2 {
+    height: 25px;
+    width: 25px;
+    padding-right: 0px 5px;
+
+
+}
+
+.main3 {
+    border: 1px solid rgb(47, 47, 111);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding-right: 22px;
+    padding-left: 15px;
+    margin-left: 40px;
+
+}
+
+.bookticket .chart {
+    padding-top: 5px;
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(47, 47, 111));
+    padding-bottom: 5px;
+}
+
+
+.logo3 {
+    height: 20px;
+    width: 20px;
+}
+
+.panel-section {
+    width: 570px;
+    height: 100px;
+    margin-left: 2.7rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid gray;
+    padding-right: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.item img {
+    padding: 10px 20px;
+}
+
+.item span {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.item select {
+    font-size: 1.1rem;
+    padding: 4px 5px;
+    border: none;
+}
+
+.interchange_btn {
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+.item1 {
+    display: flex;
+    align-items: center;
+}
+
+.item1 img {
+    padding: 10px 20px;
+}
+
+.item1 span {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.item1 select {
+    font-size: 1.1rem;
+    padding: 4px 2px;
+    border: none;
+}
+
+.item1 .info p {
+    font-size: 15px;
+    padding: 0px 4px;
+}
+
+.main_btn {
+    margin-top: 3.2rem;
+    margin-left: 2.7rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_btn #button {
+
+    width: 70%;
+    color: #fff;
+    background-color: #01bb0a;
+    text-align: center;
+    margin-right: 17rem;
+    font-size: 1rem;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#button:hover {
+
+    background-color: pink;
+}
